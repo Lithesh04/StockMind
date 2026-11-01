@@ -1,0 +1,23 @@
+{
+  "agent_name": "StockMind",
+  "agent_role": "Inventory Manager Buyer Agent",
+  "supplier_agent": "Supplier Agent",
+  "default_warehouse": {
+    "name": "Chennai Demo Warehouse",
+    "latitude": 13.0827,
+    "longitude": 80.2707
+  },
+  "monitor_interval_seconds": 5,
+  "socket_host": "127.0.0.1",
+  "socket_port": 5055,
+  "default_required_quantity": 50,
+  "default_max_unit_budget": 60.0,
+  "default_max_delivery_days": 7,
+  "utility_weights": {
+    "cost": 0.4,
+    "delivery": 0.25,
+    "reliability": 0.2,
+    "quality": 0.15
+  },
+  "purchase_execution": "human_approval_required"
+}

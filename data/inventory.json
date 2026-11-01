@@ -1,0 +1,52 @@
+[
+  {
+    "sku": "RICE-001",
+    "product": "Rice",
+    "current_stock": 0,
+    "reorder_level": 20,
+    "target_stock": 100,
+    "unit": "kg",
+    "unit_cost": 58,
+    "category": "Grocery"
+  },
+  {
+    "sku": "MILK-001",
+    "product": "Milk",
+    "current_stock": 8,
+    "reorder_level": 25,
+    "target_stock": 100,
+    "unit": "litres",
+    "unit_cost": 48,
+    "category": "Dairy"
+  },
+  {
+    "sku": "SUGAR-001",
+    "product": "Sugar",
+    "current_stock": 60,
+    "reorder_level": 20,
+    "target_stock": 100,
+    "unit": "kg",
+    "unit_cost": 44,
+    "category": "Grocery"
+  },
+  {
+    "sku": "OIL-001",
+    "product": "Cooking Oil",
+    "current_stock": 12,
+    "reorder_level": 15,
+    "target_stock": 80,
+    "unit": "litres",
+    "unit_cost": 135,
+    "category": "Grocery"
+  },
+  {
+    "sku": "BISC-001",
+    "product": "Biscuits",
+    "current_stock": 45,
+    "reorder_level": 15,
+    "target_stock": 80,
+    "unit": "packs",
+    "unit_cost": 10,
+    "category": "Snacks"
+  }
+]

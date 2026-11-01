@@ -1,0 +1,7 @@
+ASSIGNMENT 3.1 - BUYER / SUPPLIER NEGOTIATION
+=======================================================
+[ROUND 1] BUYER proposes INR 46.00
+[ROUND 1] SUPPLIER counteroffers INR 54.00
+[ROUND 2] BUYER proposes INR 49.00
+[ROUND 2] SUPPLIER ACCEPTS INR 49.00
+[RESULT] Agreement=True | Unit price=INR 49.0

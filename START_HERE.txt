@@ -1,0 +1,19 @@
+STOCKMIND - START HERE
+
+1. Extract StockMind_Project.zip.
+2. Open VS Code -> File -> Open Folder -> choose the StockMind folder.
+3. Open Terminal -> New Terminal.
+4. Run:
+   python -m venv .venv
+   .venv\Scripts\Activate.ps1
+   python -m pip install --upgrade pip
+   pip install -r requirements.txt
+   python main.py setup
+5. Run the app:
+   python -m streamlit run app.py
+6. Open the local URL shown by Streamlit (usually http://localhost:8501).
+7. For all assignment instructions, read README.md.
+
+To run the CLI demonstrations: python main.py demo
+To run the tests: python -m pytest -q
+To run the two-terminal socket demo: follow README.md section 7.

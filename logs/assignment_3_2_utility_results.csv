@@ -1,0 +1,11 @@
+offer_id,supplier,unit_price,available_qty,delivery_days,reliability_pct,quality_rating,cost_score,delivery_score,reliability_score,quality_score,utility_score,feasible,rejection_reasons
+OFF-01,Chennai Wholesale,52.0,120,2,96,4.7,13.33,71.43,96.0,94.0,56.49,True,[]
+OFF-02,Metro Supplies,49.5,500,3,94,4.5,17.5,57.14,94.0,90.0,53.59,True,[]
+OFF-03,QuickCart Traders,47.0,80,5,90,4.2,21.67,28.57,90.0,84.0,46.41,True,[]
+OFF-04,Prime Distributors,55.0,300,1,98,4.9,8.33,85.71,98.0,98.0,59.06,True,[]
+OFF-05,Budget Mart Supply,45.0,200,6,82,4.0,25.0,14.29,82.0,80.0,41.97,True,[]
+OFF-06,FreshRoute,50.0,40,2,95,4.6,16.67,71.43,95.0,92.0,57.32,False,['insufficient quantity']
+OFF-07,Reliable Retail Hub,53.0,150,4,99,4.8,11.67,42.86,99.0,96.0,49.58,True,[]
+OFF-08,Value Chain Co,48.0,250,7,88,4.1,20.0,0.0,88.0,82.0,37.9,True,[]
+OFF-09,Express Wholesale,51.0,400,2,97,4.4,15.0,71.43,97.0,88.0,56.46,True,[]
+OFF-10,Regional Stockists,42.0,500,9,80,3.9,30.0,0.0,80.0,78.0,39.7,False,['delivery exceeds limit']

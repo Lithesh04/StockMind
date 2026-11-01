@@ -1,0 +1,19 @@
+ASSIGNMENT 3.2 - UTILITY OPTIMIZATION
+=======================================================
+U = 0.40*Cost + 0.25*Delivery + 0.20*Reliability + 0.15*Quality
+Hard constraints: quantity >= 50, unit price <= INR 60, delivery <= 7 days
+
+Prime Distributors utility= 59.06 | FEASIBLE
+FreshRoute     utility= 57.32 | REJECTED: insufficient quantity
+Chennai Wholesale utility= 56.49 | FEASIBLE
+Express Wholesale utility= 56.46 | FEASIBLE
+Metro Supplies utility= 53.59 | FEASIBLE
+Reliable Retail Hub utility= 49.58 | FEASIBLE
+QuickCart Traders utility= 46.41 | FEASIBLE
+Budget Mart Supply utility= 41.97 | FEASIBLE
+Regional Stockists utility= 39.70 | REJECTED: delivery exceeds limit
+Value Chain Co utility= 37.90 | FEASIBLE
+
+[WINNER] Prime Distributors
+[UTILITY] 59.06/100
+[OFFER] INR 55.00/unit, 1 days

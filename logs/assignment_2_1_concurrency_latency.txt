@@ -1,0 +1,7 @@
+ASSIGNMENT 2.1 - CONCURRENT BACKGROUND MONITOR
+=======================================================
+[WORKER] scan=1 items=5 latency=0.002 ms
+[WORKER] scan=2 items=5 latency=0.011 ms
+[WORKER] scan=3 items=5 latency=0.010 ms
+[WORKER] scan=4 items=5 latency=0.009 ms
+[MAIN] Main process continued while daemon worker polled inventory

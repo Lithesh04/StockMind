@@ -1,0 +1,31 @@
+﻿# Python environment and cache
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Private signing keys - never upload these
+**/*_private.pem
+**/*private*.pem
+*.key
+*.p12
+*.pfx
+
+# Local databases
+*.sqlite
+*.sqlite3
+*.db
+
+# Temporary files
+*.log
+.DS_Store
+Thumbs.db
+
+# Exclude obsolete troubleshooting log
+logs/assignment_4_2_build_environment_error.txt

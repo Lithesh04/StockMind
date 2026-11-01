@@ -1,0 +1,7 @@
+ASSIGNMENT 4.2 - JSON PARSER UNIT TEST
+=====================================
+Test module: tests/test_weather_parse.py
+Test data: data/weather_parser_fixture.json (local test fixture, not live API data)
+Expected behavior: Parse hourly precipitation probability/amount and classify a HIGH delivery-risk signal when the configured threshold is reached.
+Result: PASS (covered by the full 12-test suite recorded in logs/pytest_results.txt)
+Live endpoint status: See logs/assignment_4_2_api_status.txt. The build environment could not resolve the Open-Meteo host.

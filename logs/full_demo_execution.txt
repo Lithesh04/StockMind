@@ -1,0 +1,82 @@
+[SETUP] StockMind folders checked
+[SETUP] Demo Ed25519 keys generated/verified in data/keys
+[SECURITY] Keep *_private.pem files private; they are excluded by .gitignore
+ASSIGNMENT 1.2 - RULE-BASED ENVIRONMENTAL REASONER
+=======================================================
+[SENSE] Rice: stock=15 / reorder=20
+[RULE] LOW_STOCK -> [ACTION] CREATE_REPLENISHMENT_REQUEST
+[REORDER] 85 kg requested
+[SENSE] Milk: stock=8 / reorder=25
+[RULE] LOW_STOCK -> [ACTION] CREATE_REPLENISHMENT_REQUEST
+[REORDER] 92 litres requested
+[SENSE] Sugar: stock=60 / reorder=20
+[RULE] STOCK_NORMAL -> [ACTION] CONTINUE_MONITORING
+[SENSE] Cooking Oil: stock=12 / reorder=15
+[RULE] LOW_STOCK -> [ACTION] CREATE_REPLENISHMENT_REQUEST
+[REORDER] 68 litres requested
+[SENSE] Biscuits: stock=45 / reorder=15
+[RULE] STOCK_NORMAL -> [ACTION] CONTINUE_MONITORING
+
+ASSIGNMENT 2.1 - CONCURRENT BACKGROUND MONITOR
+=======================================================
+[WORKER] scan=1 items=5 latency=0.003 ms
+[WORKER] scan=2 items=5 latency=0.013 ms
+[WORKER] scan=3 items=5 latency=0.011 ms
+[WORKER] scan=4 items=5 latency=0.011 ms
+[MAIN] Main process continued while daemon worker polled inventory
+
+ASSIGNMENT 3.1 - BUYER / SUPPLIER NEGOTIATION
+=======================================================
+[ROUND 1] BUYER proposes INR 46.00
+[ROUND 1] SUPPLIER counteroffers INR 54.00
+[ROUND 2] BUYER proposes INR 49.00
+[ROUND 2] SUPPLIER ACCEPTS INR 49.00
+[RESULT] Agreement=True | Unit price=INR 49.0
+
+ASSIGNMENT 5.2 - CAPSTONE AGENT INTEGRATION
+=======================================================
+[PERCEPTION] Low-stock products: Rice, Milk, Cooking Oil
+[PLANNING] Initial intentions: ['request_supplier_quotes', 'rank_feasible_offers', 'negotiate_best_offer', 'request_human_purchase_approval']
+[OPTIMIZATION] Best feasible supplier: Prime Distributors
+[BELIEF UPDATE] Supplier availability changed to False
+[REPLANNING] Active intentions: ['find_alternative_supplier', 'rank_feasible_offers', 'negotiate_best_offer', 'request_human_purchase_approval']
+[CAPSTONE STATUS] Main agent connected perception, BDI and utility modules
+
+ASSIGNMENT 3.2 - UTILITY OPTIMIZATION
+=======================================================
+U = 0.40*Cost + 0.25*Delivery + 0.20*Reliability + 0.15*Quality
+Hard constraints: quantity >= 50, unit price <= INR 60, delivery <= 7 days
+
+Prime Distributors utility= 59.06 | FEASIBLE
+FreshRoute     utility= 57.32 | REJECTED: insufficient quantity
+Chennai Wholesale utility= 56.49 | FEASIBLE
+Express Wholesale utility= 56.46 | FEASIBLE
+Metro Supplies utility= 53.59 | FEASIBLE
+Reliable Retail Hub utility= 49.58 | FEASIBLE
+QuickCart Traders utility= 46.41 | FEASIBLE
+Budget Mart Supply utility= 41.97 | FEASIBLE
+Regional Stockists utility= 39.70 | REJECTED: delivery exceeds limit
+Value Chain Co utility= 37.90 | FEASIBLE
+
+[WINNER] Prime Distributors
+[UTILITY] 59.06/100
+[OFFER] INR 55.00/unit, 1 days
+
+ASSIGNMENT 4.1 - BDI INTENTION CHANGE
+=======================================================
+[BELIEFS] {'priority_product': 'Rice', 'current_stock': 15, 'reorder_level': 20, 'supplier_available': False, 'delivery_risk': 'LOW'}
+[DESIRES] ['avoid_stockout', 'minimize_replenishment_cost']
+[INITIAL INTENTIONS] ['request_supplier_quotes', 'rank_feasible_offers', 'negotiate_best_offer', 'request_human_purchase_approval']
+[EVENT] Supplier A becomes unavailable
+[BELIEF UPDATE] supplier_available=False
+[REPLANNED INTENTIONS] ['find_alternative_supplier', 'rank_feasible_offers', 'negotiate_best_offer', 'request_human_purchase_approval']
+[VERIFICATION] Intention changed: True
+
+ASSIGNMENT 5.1 - MESSAGE AUTHENTICATION
+=======================================================
+[TRUSTED SIGNED MESSAGE] accepted=True reason=VERIFIED
+[REPLAY TEST] accepted=False reason=REPLAYED_NONCE
+[TAMPER TEST] accepted=False reason=INVALID_SIGNATURE_OR_FORMAT
+[UNKNOWN SENDER] accepted=False reason=UNTRUSTED_SENDER
+
+[FILES] Assignment logs written to the logs/ folder

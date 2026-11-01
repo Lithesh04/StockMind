@@ -1,0 +1,6 @@
+ASSIGNMENT 5.1 - MESSAGE AUTHENTICATION
+=======================================================
+[TRUSTED SIGNED MESSAGE] accepted=True reason=VERIFIED
+[REPLAY TEST] accepted=False reason=REPLAYED_NONCE
+[TAMPER TEST] accepted=False reason=INVALID_SIGNATURE_OR_FORMAT
+[UNKNOWN SENDER] accepted=False reason=UNTRUSTED_SENDER

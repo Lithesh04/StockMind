@@ -1,0 +1,12 @@
+ASSIGNMENT 5.2 - FINAL SYSTEM SMOKE CHECK
+=========================================
+Core CLI demo: executed successfully with python main.py demo
+Automated tests: 12 passed
+Python syntax compilation: passed
+Local TCP exchange: executed successfully with separate supplier and buyer processes on 127.0.0.1:5055
+Dashboard source: Python syntax compilation passed; install requirements.txt and launch on the student's computer
+External API: integration implemented; live request could not be verified in this build environment because DNS resolution for api.open-meteo.com failed. Run python main.py api from an internet-connected laptop.
+Architecture schematic: assets/architecture.png
+Three-minute presentation: docs/3_Minute_Presentation_Script.md and docs/Video_Recording_Procedure.md
+GitHub: source package prepared; not yet published. Follow docs/GITHUB_SETUP.md.
+Purchasing: simulated only; human approval required.

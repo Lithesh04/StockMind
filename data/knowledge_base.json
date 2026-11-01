@@ -1,0 +1,10 @@
+{
+  "domain": "retail warehouse inventory management",
+  "belief_schema": ["current_stock", "reorder_level", "target_stock", "supplier_available", "delivery_risk"],
+  "desire_catalogue": ["avoid_stockout", "minimize_replenishment_cost", "maintain_supplier_reliability"],
+  "weather_policy": {
+    "high_risk_when_precipitation_probability_pct_at_least": 70,
+    "moderate_risk_when_precipitation_probability_pct_at_least": 40,
+    "note": "Educational heuristic only; weather is not a direct courier-delay measurement."
+  }
+}

@@ -1,0 +1,15 @@
+ASSIGNMENT 1.2 - RULE-BASED ENVIRONMENTAL REASONER
+=======================================================
+[SENSE] Rice: stock=15 / reorder=20
+[RULE] LOW_STOCK -> [ACTION] CREATE_REPLENISHMENT_REQUEST
+[REORDER] 85 kg requested
+[SENSE] Milk: stock=8 / reorder=25
+[RULE] LOW_STOCK -> [ACTION] CREATE_REPLENISHMENT_REQUEST
+[REORDER] 92 litres requested
+[SENSE] Sugar: stock=60 / reorder=20
+[RULE] STOCK_NORMAL -> [ACTION] CONTINUE_MONITORING
+[SENSE] Cooking Oil: stock=12 / reorder=15
+[RULE] LOW_STOCK -> [ACTION] CREATE_REPLENISHMENT_REQUEST
+[REORDER] 68 litres requested
+[SENSE] Biscuits: stock=45 / reorder=15
+[RULE] STOCK_NORMAL -> [ACTION] CONTINUE_MONITORING

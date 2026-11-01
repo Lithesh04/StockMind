@@ -1,0 +1,4 @@
+[SUPPLIER] Listening on 127.0.0.1:5055
+[SUPPLIER] Press Ctrl+C to stop
+[SUPPLIER] Authenticated request from STOCKMIND_BUYER: {'message_type': 'RESTOCK_REQUEST', 'product': 'Milk', 'quantity': 92, 'max_unit_budget': 60.0}
+[SUPPLIER] Signed quote sent

@@ -1,0 +1,13 @@
+[BUYER] Sending signed RESTOCK_REQUEST to Supplier Agent...
+[BUYER] Supplier response signature verified
+[BUYER] Quote received:
+  message_type: SUPPLIER_QUOTE
+  supplier: SUPPLIER_AGENT
+  product: Milk
+  quantity: 92
+  unit_price: 49.5
+  available_qty: 500
+  delivery_days: 2
+  reliability_pct: 94
+  quality_rating: 4.5
+  note: Simulated supplier quote for academic demonstration

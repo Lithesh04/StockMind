@@ -1,0 +1,12 @@
+[
+  {"offer_id": "OFF-01", "supplier": "Chennai Wholesale", "unit_price": 52.0, "available_qty": 120, "delivery_days": 2, "reliability_pct": 96, "quality_rating": 4.7},
+  {"offer_id": "OFF-02", "supplier": "Metro Supplies", "unit_price": 49.5, "available_qty": 500, "delivery_days": 3, "reliability_pct": 94, "quality_rating": 4.5},
+  {"offer_id": "OFF-03", "supplier": "QuickCart Traders", "unit_price": 47.0, "available_qty": 80, "delivery_days": 5, "reliability_pct": 90, "quality_rating": 4.2},
+  {"offer_id": "OFF-04", "supplier": "Prime Distributors", "unit_price": 55.0, "available_qty": 300, "delivery_days": 1, "reliability_pct": 98, "quality_rating": 4.9},
+  {"offer_id": "OFF-05", "supplier": "Budget Mart Supply", "unit_price": 45.0, "available_qty": 200, "delivery_days": 6, "reliability_pct": 82, "quality_rating": 4.0},
+  {"offer_id": "OFF-06", "supplier": "FreshRoute", "unit_price": 50.0, "available_qty": 40, "delivery_days": 2, "reliability_pct": 95, "quality_rating": 4.6},
+  {"offer_id": "OFF-07", "supplier": "Reliable Retail Hub", "unit_price": 53.0, "available_qty": 150, "delivery_days": 4, "reliability_pct": 99, "quality_rating": 4.8},
+  {"offer_id": "OFF-08", "supplier": "Value Chain Co", "unit_price": 48.0, "available_qty": 250, "delivery_days": 7, "reliability_pct": 88, "quality_rating": 4.1},
+  {"offer_id": "OFF-09", "supplier": "Express Wholesale", "unit_price": 51.0, "available_qty": 400, "delivery_days": 2, "reliability_pct": 97, "quality_rating": 4.4},
+  {"offer_id": "OFF-10", "supplier": "Regional Stockists", "unit_price": 42.0, "available_qty": 500, "delivery_days": 9, "reliability_pct": 80, "quality_rating": 3.9}
+]

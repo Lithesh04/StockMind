@@ -1,0 +1,14 @@
+ASSIGNMENT 4.2 - EXTERNAL REST API STATUS
+========================================
+Integration module: stockmind/weather_api.py
+External service: Open-Meteo Forecast API
+Endpoint: https://api.open-meteo.com/v1/forecast
+Request fields: latitude, longitude, hourly=precipitation_probability,precipitation, forecast_days=1, timezone=auto
+Parser test: tests/test_weather_parse.py (uses a local test fixture; this is not represented as live data)
+
+LIVE REQUEST ATTEMPT FROM THE BUILD ENVIRONMENT:
+Result: Not completed.
+Reason: DNS name resolution for api.open-meteo.com failed in this execution environment.
+Action for student: Run `python main.py api` on a computer with internet access, or use the dashboard Live API tab. A successful run writes logs/assignment_4_2_live_api.txt.
+
+Do not represent the local parser fixture as a live API response.

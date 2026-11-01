@@ -1,0 +1,9 @@
+ASSIGNMENT 4.1 - BDI INTENTION CHANGE
+=======================================================
+[BELIEFS] {'priority_product': 'Rice', 'current_stock': 15, 'reorder_level': 20, 'supplier_available': False, 'delivery_risk': 'LOW'}
+[DESIRES] ['avoid_stockout', 'minimize_replenishment_cost']
+[INITIAL INTENTIONS] ['request_supplier_quotes', 'rank_feasible_offers', 'negotiate_best_offer', 'request_human_purchase_approval']
+[EVENT] Supplier A becomes unavailable
+[BELIEF UPDATE] supplier_available=False
+[REPLANNED INTENTIONS] ['find_alternative_supplier', 'rank_feasible_offers', 'negotiate_best_offer', 'request_human_purchase_approval']
+[VERIFICATION] Intention changed: True

@@ -1,0 +1,4 @@
+{
+  "STOCKMIND_BUYER": "data/keys/buyer_public.pem",
+  "SUPPLIER_AGENT": "data/keys/supplier_public.pem"
+}
